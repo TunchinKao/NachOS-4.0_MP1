@@ -1,32 +1,52 @@
-# Copied from https://github.com/shllvii/NachOS/blob/master/.gitignore
+# Below is from https://stackoverflow.com/questions/5711120/gitignore-binary-files-that-have-no-extension
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+# Ignore files with extension `.class` & `.sm`
+*.class
+*.sm
+
+# Ignore `bin` dir
+bin/
+# or
+*/bin/*
+
+#----------------------USELESS------------------
+# Unignore all `.jar` in `bin` dir
+#!*/bin/*.jar
+
+# Ignore all `library.jar` in `bin` dir
+#*/bin/library.jar
+
+# Ignore a file with extension
+#relative/path/to/dir/filename.extension
+
+# Ignore a file without extension
+#relative/path/to/dir/anotherfile
+#----------------------------------
+
+# Modified from https://github.com/shllvii/NachOS/blob/master/.gitignore
 # Modified nachos-version
 # Nachos build files
 # (based on make clean)
-nachos/NachOS-4.0_MP1/code/*~
-nachos/NachOS-4.0_MP1/code/*/core
-nachos/NachOS-4.0_MP1/code/*/nachos
-nachos/NachOS-4.0_MP1/code/*/DISK
-nachos/NachOS-4.0_MP1/code/*/*.o
-nachos/NachOS-4.0_MP1/code/*/swtch.s
-nachos/NachOS-4.0_MP1/code/*/*~
-nachos/NachOS-4.0_MP1/code/test/*.coff
-nachos/NachOS-4.0_MP1/code/bin/coff2flat
-nachos/NachOS-4.0_MP1/code/bin/coff2noff
-nachos/NachOS-4.0_MP1/code/bin/disassemble
-nachos/NachOS-4.0_MP1/code/bin/out
+code/*~
+code/*/core
+code/*/nachos
+code/*/DISK
+code/*/*.o
+code/*/swtch.s
+code/*/*~
+code/test/*.coff
+code/bin/coff2flat
+code/bin/coff2noff
+code/bin/disassemble
+code/bin/out
 
-ref/NachOS-4.0_MP1/code/*~
-ref/NachOS-4.0_MP1/code/*/core
-ref/NachOS-4.0_MP1/code/*/nachos
-ref/NachOS-4.0_MP1/code/*/DISK
-ref/NachOS-4.0_MP1/code/*/*.o
-ref/NachOS-4.0_MP1/code/*/swtch.s
-ref/NachOS-4.0_MP1/code/*/*~
-ref/NachOS-4.0_MP1/code/test/*.coff
-ref/NachOS-4.0_MP1/code/bin/coff2flat
-ref/NachOS-4.0_MP1/code/bin/coff2noff
-ref/NachOS-4.0_MP1/code/bin/disassemble
-ref/NachOS-4.0_MP1/code/bin/out
 # VS Code
 .vscode
 
@@ -66,7 +86,11 @@ ref/NachOS-4.0_MP1/code/bin/out
 */halt
 */add 
 */halt 
-*/createFile 
+createFile 
 */fileIO_test1 
 */fileIO_test2 
-*/LotOfAdd
+*/LotOfAjod
+
+# strange file
+*.dep
+*.gz
