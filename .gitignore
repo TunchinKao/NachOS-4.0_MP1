@@ -1,0 +1,64 @@
+# Copied from https://github.com/shllvii/NachOS/blob/master/.gitignore
+# Modified nachos-version
+# Nachos build files
+# (based on make clean)
+nachos/NachOS-4.0_MP1/code/*~
+nachos/NachOS-4.0_MP1/code/*/core
+nachos/NachOS-4.0_MP1/code/*/nachos
+nachos/NachOS-4.0_MP1/code/*/DISK
+nachos/NachOS-4.0_MP1/code/*/*.o
+nachos/NachOS-4.0_MP1/code/*/swtch.s
+nachos/NachOS-4.0_MP1/code/*/*~
+nachos/NachOS-4.0_MP1/code/test/*.coff
+nachos/NachOS-4.0_MP1/code/bin/coff2flat
+nachos/NachOS-4.0_MP1/code/bin/coff2noff
+nachos/NachOS-4.0_MP1/code/bin/disassemble
+nachos/NachOS-4.0_MP1/code/bin/out
+
+ref/NachOS-4.0_MP1/code/*~
+ref/NachOS-4.0_MP1/code/*/core
+ref/NachOS-4.0_MP1/code/*/nachos
+ref/NachOS-4.0_MP1/code/*/DISK
+ref/NachOS-4.0_MP1/code/*/*.o
+ref/NachOS-4.0_MP1/code/*/swtch.s
+ref/NachOS-4.0_MP1/code/*/*~
+ref/NachOS-4.0_MP1/code/test/*.coff
+ref/NachOS-4.0_MP1/code/bin/coff2flat
+ref/NachOS-4.0_MP1/code/bin/coff2noff
+ref/NachOS-4.0_MP1/code/bin/disassemble
+ref/NachOS-4.0_MP1/code/bin/out
+# VS Code
+.vscode
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
