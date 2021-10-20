@@ -38,6 +38,7 @@ ref/NachOS-4.0_MP1/code/bin/out
 *.lo
 *.o
 *.obj
+*.coff
 
 # Precompiled Headers
 *.gch
@@ -62,3 +63,10 @@ ref/NachOS-4.0_MP1/code/bin/out
 *.exe
 *.out
 *.app
+*/halt
+*/add 
+*/halt 
+*/createFile 
+*/fileIO_test1 
+*/fileIO_test2 
+*/LotOfAdd
