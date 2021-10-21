@@ -1,0 +1,96 @@
+# Below is from https://stackoverflow.com/questions/5711120/gitignore-binary-files-that-have-no-extension
+# Ignore all
+#*
+
+# Unignore all with extensions
+#!*.*
+
+# Unignore all dirs
+#!*/
+# Ignore files with extension `.class` & `.sm`
+#*.class
+#*.sm
+
+# Ignore `bin` dir
+#bin/
+# or
+#*/bin/*
+
+#----------------------USELESS------------------
+# Unignore all `.jar` in `bin` dir
+#!*/bin/*.jar
+
+# Ignore all `library.jar` in `bin` dir
+#*/bin/library.jar
+
+# Ignore a file with extension
+#relative/path/to/dir/filename.extension
+
+# Ignore a file without extension
+#relative/path/to/dir/anotherfile
+#----------------------------------
+
+# Modified from https://github.com/shllvii/NachOS/blob/master/.gitignore
+# Modified nachos-version
+# Nachos build files
+# (based on make clean)
+code/*~
+code/*/core
+code/*/nachos
+code/*/DISK
+code/*/*.o
+code/*/swtch.s
+code/*/*~
+code/test/*.coff
+code/bin/coff2flat
+code/bin/coff2noff
+code/bin/disassemble
+code/bin/out
+
+# VS Code
+.vscode
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.coff
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*/halt
+*/add 
+*/halt 
+createFile 
+*/fileIO_test1 
+*/fileIO_test2 
+*/LotOfAjod
+
+# strange file
+*.dep
+*.gz
